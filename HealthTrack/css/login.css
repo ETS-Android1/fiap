@@ -1,0 +1,96 @@
+.container-login {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-login {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-login-wrapper {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-login-wrapper button {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(42,213,235,1) 14%, rgba(94,196,227,1) 49%, rgba(144,247,247,1) 100%);
+    border: none;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.form-login-wrapper button:hover {
+    color: #FFF;
+    border: none;
+    transform: scale(1.05);
+    transition: .2s;
+} 
+
+.banner-login {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf4f7;
+}
+
+.banner-login img {
+    max-width: 100px;
+    position: relative;
+}
+
+.banner-login h2 {
+    position: relative;
+    top: 10px;
+}
+
+.login-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.forgot-pass {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    font-size: .9rem;
+}
+
+.forgot-pass span{
+    cursor: pointer;
+    text-decoration: underline blanchedalmond;
+}
+
+@media screen and (max-width: 800px) {
+    .banner-login {
+        width: 50%;
+        padding: 0 2%;
+    }
+
+    .banner-login img {
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-login {
+        width: 100%;
+    }
+}
