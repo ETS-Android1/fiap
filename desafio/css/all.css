@@ -183,6 +183,7 @@
     flex-direction: column;
 }
 
+
 .style2 .title, .style3 .title {
     min-width: 100%;
     text-align: center;
@@ -198,6 +199,16 @@
     align-items: center;
     justify-content: center;
     padding: 15px;
+}
+
+.style2 .inner-b {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
 }
 
 
