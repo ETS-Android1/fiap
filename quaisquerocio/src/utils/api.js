@@ -2,7 +2,8 @@ import axios from 'axios';
 
 const api = () => {
     const defaultOptions = {
-      baseURL: 'http://192.168.0.109:8080/api/',
+      //baseURL: 'http://192.168.0.109:8080/api/',
+      baseURL: 'https://quaisquerocio.herokuapp.com/api/',
     };
   
     // Create instance
